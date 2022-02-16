@@ -1,0 +1,17 @@
+print("-------------------------")
+print("---PROMEDIO DE 4 NOTAS---")
+print("-------------------------")
+#Pedir nombre
+print ("Porfavor ingrese su nombre")
+nombre = int( input (""))
+print ("Ingrese nota de Diplomado")
+n1 = int(input (""))
+print ("Ingrese nota de Laboratorio 1")
+n2 = int (input (""))
+print ("Ingrese nota de Com. Aplicada")
+n3 = int (input (""))
+print ("Ingrese nota de Diplomado")
+n4 = int (input (""))
+
+p= float ((n1+n2+n3+n4)/4)
+print ("El Promedio es de:", p)
