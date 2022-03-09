@@ -1,0 +1,55 @@
+#Realizar un conversor de monedas de dolares, euros y quetzales
+dolaresaquetzales = ""
+quetzalesadorales = ""
+eurosaquetzales = ""
+quetzalesaeuros = ""
+#Menu -> a Quetzales, Dolares a Euros, Euros a Dolares
+print ("------Conversor de Monedas-------")
+
+while True:
+    res = input('''
+    1. Dolares a Quetzales
+    2. Quetzales a Dolares
+    3. Euros a quetzales
+    4. Quetzales a Euros
+    5. Salida
+    Seleccione una opcion:''')
+    if res == '1':
+        #Entrada
+        print ("Igrese la Cantidad de dolares")
+        #Proceso
+        dolaresaquetzales = float (input("Dolares:"))
+        conversion1 = dolaresaquetzales * 7.8
+        #salida
+        print ("En quetzales es:", conversion1)
+        
+    elif res == '2':
+         #Entrada
+        print ("Igrese la Cantidad de quetzales")
+        #Proceso
+        quetzalesadorales = float (input("Quetzales:"))
+        conversion2 = quetzalesadorales* 0.12970
+        #salida
+        print ("En Dolares es:", conversion2)
+    
+    elif res == '3':
+         #Entrada
+        print ("Igrese la Cantidad de Euros")
+        #Proceso
+        eurosaquetzales = float (input("Euros:"))
+        conversion3 = eurosaquetzales* 8.433
+        #salida
+        print ("En Dolares es:", conversion2)
+
+        
+
+
+
+
+
+
+#Euros a Quetzales, Quetzales a Dolares, Quetzales a Euros
+
+#Funciones ->dolaresaquetzales(dolares) => return quetzales
+
+#Imprimir -> dolares a X (quetzales o euros)
